@@ -1,4 +1,4 @@
-#Contém todos os projetos desenvolvidos por mim durante minha tragetória na Trybe.
+# Contém todos os projetos desenvolvidos por mim durante minha tragetória na Trybe.
 
 **1 - Usando o operador &&**
 -
