@@ -1,0 +1,1 @@
+Contém todos os projetos desenvolvidos por mim durante minha tragetória na Trybe.
