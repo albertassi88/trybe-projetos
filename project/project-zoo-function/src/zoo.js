@@ -1,5 +1,6 @@
 const data = require('./data');
 
+
 /*1. IMPLEMENTE A FUNÇÃO animalsByIds
 Esta função é responsável pela busca das espécies de animais por id. Ela retorna um array contendo as espécies referentes aos ids passados como parâmetro, podendo 
 receber um ou mais ids.
@@ -16,6 +17,7 @@ Ao receber mais de um id, retorna um array com as espécies referentes aos ids*/
 function animalsByIds(...ids) {
     return data.animals.filter(animal => ids.includes(animal.id));
 }
+console.log(animalsByIds('0938aa23-f153-4937-9f88-4858b24d6bce'))
 
 
 /*2. IMPLEMENTE A FUNÇÃO animalsOlderThan
@@ -250,3 +252,20 @@ function employeeCoverage(idOrName) {
       return cont;
     }, {});
 }
+
+
+module.exports = {
+    entryCalculator,
+    schedule,
+    animalCount,
+    animalMap,
+    animalsByIds,
+    employeeByName,
+    employeeCoverage,
+    addEmployee,
+    isManager,
+    animalsOlderThan,
+    oldestFromFirstSpecies,
+    increasePrices,
+    createEmployee,
+};
